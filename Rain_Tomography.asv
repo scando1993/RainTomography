@@ -1,0 +1,23 @@
+%% Rain Tomography
+
+N = 8;
+L = 20;
+a0 = 150;
+b0 = 70;
+eps = 0.000000000001;
+l = 500; 
+rm = [[2 6 10 15]; [6 11.2 15 5]; [11.2 18 5 10]];
+
+% A = a_matrix(rm, N, L);
+% B = b_matrix(N);
+% 
+% k = 0;
+% 
+% for i = 1:length(Att1)
+%     p = [Att1(i) Att2(i) Att3(i)]';
+%     k0 = iterative_algorithm( A, B, p, b0, a0, N, eps, l);
+%     k = k + k0; 
+% end
+
+
+contour(k);
